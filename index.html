@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anant Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/497467dfcd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 
+                <img src="https://www.stoaktechnologies.com/wp-content/uploads/2016/11/black-background-with-logo-600x338.jpg" alt="" class="logo">
+                <ul id="ul" class="sidemenu" >
+                    <li><a href="#header" class="li">home</a></li>
+                    <li><a href="#about" class="li">about</a></li>
+                    <li><a href="#services" class="li">services</a></li>
+                    <li><a href="#portfolio" class="li">portfolio</a></li>
+                    <li><a href="#contact" class="li">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="p">Web Developer</p>
+                <h1>Hi, I'm <span>Anant</span><br>from Azamgarh</h1>
+            </div>
+        </div>
+        </div>
+        <!-- ------------------about------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    
+                     
+                    <div class="about-col-1">
+                        <img src="2.jpg">
+                    </div>
+                     
+                    <div class="about-col-2" >
+                        
+                        <h1 class="sub-title" >About Me</h1>
+                        <p class="p" >Hello Everyone, My name is Anant Srivastava, An Aspiring Software Engineer. Currently, I am Persuing B.Tech. From Ajay Kumar Garg Engineering College in Information Technology Branch. I am a curated and problem solving person and following Web Developement as a Hobby. Some more hobbies includes Playing chess, badminton, cricket and I like to spend my time in the middle of nature.</p>
+                        
+                        <div id="about-skills">
+                        <div class="tab-titles tab-titles1">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Developing Website</li>
+                                <li><span>DSA</span><br>Good Understanding in Data Structure and Algorithm</li>
+                                <li><span>Problem Solving</span><br>Good Understanding in Problem Solving
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                 
+                                 
+                                <li><span>Photographer</span><br>Value Education Cell</li>
+                                <li><span>Preparing</span><br>applied for internship</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.Tech.</span><br>Ajay Kumar Garg Engineering College</li>
+                                <li><span>12<sup>th</sup></span><br>J.M.V.C.S.</li>
+                                <li><span>10<sup>th</sup></span><br>J.M.V.C.S.</li>
+                            </ul>
+                        </div>
+                        
+                        </div>
+                    
+                
+                </div>
+            </div>
+        </div>
+<!-- ----------------------------services--------------------------------         -->
+
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div><i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p class="p">I am a aspiring MERN Stack Developer consisting some technology named MongoDB, ExpressJS, React and NodeJS</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div><i class="fa-solid fa-crop"></i>
+            <h2>Software Developer</h2>
+            <p class="p">Developing a software for Companies and when need, I can fix bugs and issues from the code.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div><i class="fa-solid fa-circle-exclamation"></i>
+            <h2>Problem Solver</h2>
+            <p class="p">I can solve the problem based on the structure of the code and I am able to apply different approaches for a single problem</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- ---------------------portfolio--------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p class="p">Where individuals can connect with each other over the internet.</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p class="p">A app by which you can enjoy your company alone and cheris your moment</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p class="p">This app is made to connect vendor and seller over the internet</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+
+    </div>
+</div>
+
+
+<!-- ----------------------contact------------------------ -->
+.
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" id="contact-me">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> anantsrivastava992003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 7275193831</p>
+                <div class="social-icons">
+                    <!-- <a href="https://www.instagram.com/anantsrivastava403/"><i class="fa-brands fa-instagram"></i></a> -->
+                    <a href="https://github.com/anant992003"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/anant_0909"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/anant-srivastava-05736125b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Anant Srivastava resume.pdf" download target="front" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="9" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2 btn3">submit</button>
+
+                </form>
+                 <span id="msg">
+                    
+                 </span>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------copyright------------------- -->
+
+<div class="copyright">
+    <p>Copyright &#xA9; Anant. Made with <i class="fa-solid fa-heart"></i> </p>
+</div>
+</div>
+
+     <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+     </script>
+     <script>
+        var sidemenu=document.getElementsByClassName("sidemenu")[0];
+        function openmenu(){
+            sidemenu.style.right ="0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+
+        }
+        console.log(sidemenu.style.right)
+     </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxTQkvUqz7UXfBhSlNimrsdiiJ2LADdVGcuRnTKrTAdzr6-jEO-wdruCfvkPP2BGFia/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        // message ko show karne ke liye...
+        const msg=document.getElementById("msg")
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully!"
+                setTimeout(function (){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
